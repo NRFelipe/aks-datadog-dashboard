@@ -1,0 +1,32 @@
+# datadog-values.yaml
+
+datadog:
+  apiKeyExistingSecret: datadog-secret
+  site: datadoghq.com
+
+  logs:
+    enabled: true
+
+  apm:
+    enabled: true
+
+  processAgent:
+    enabled: true
+
+agents:
+  containers:
+    log:
+      enabled: true
+
+clusterAgent:
+  enabled: true
+  admissionController:
+    enabled: true
+
+kubeStateMetrics:
+  enabled: true
+
+# Recomendado para clusters com múltiplos nós
+clusterChecks:
+  enabled: true
+
