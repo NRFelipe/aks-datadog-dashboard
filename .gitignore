@@ -1,0 +1,12 @@
+# Logs
+*.log
+
+# Diretórios ocultos de sistema/editor
+.vscode/
+.idea/
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
